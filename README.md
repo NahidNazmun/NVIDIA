@@ -1,15 +1,15 @@
 # NVIDIA
 This repository has been created for NVIDIA JETSON NANO certification. The goal of this project is to creat a gesture recognition system which we will be able to integrate in small robots to perform Human Robot Interaction smoothly.
 # Motivation
-Body language and gestures, in particular, say a lot about you. A gesture is whenever you move your hand or head to express or emphasize an idea. And this is an important part of your overall body language. By doing a survey on different case studies we out 4 main reasons gestures are important:​
+Body language and gestures, in particular, say a lot about us. A gesture is whenever we move our hand or head to express or emphasize an idea. And this is an important part of your overall body language. By doing a survey on different case studies we have found out 4 main reasons why gestures are important:​
 
-1.Gestures can help you describe what you’re talking about, both literally (e.g., when you talk about drawing a circle, you can motion a circle with your hand) and metaphorically (e.g., you could motion a circle with your hand to say “everybody”)
+1.Gestures can help us to describe what a person talking about, both literally (e.g., when we talk about drawing a circle, we can motion a circle with our hand) and metaphorically (e.g., we could motion a circle with our hand to say “everybody”)
 
-2.Gestures can help you point to people and things in your surroundings (e.g., pointing at an object while you say “look at that”)​
+2.Gestures can help us point to people and things in our surroundings (e.g., pointing at an object while saying “look at that”)​
 
-3.Gestures can help you add emphasis and structure when you talk (e.g., showing numbers when you count, “1, 2, 3…”)​
+3.Gestures can help us to add emphasis and structure when we talk (e.g., showing numbers when we count, “1, 2, 3…”)​
 
-4.Gestures give clues about your emotional state. These gestures are not always connected to what you’re saying (e.g., are you confident?, are you lying?, are you anxious?)
+4.Gestures give clues about our emotional state. These gestures are not always connected to what we’re saying (e.g., are you confident?, are you lying?, are you anxious?)
 
 A study led by neuroscientist Spencer Kelly found that, "Gestures – more than actions – appear to make people pay attention to the acoustics of speech. When we see a gesture, our auditory system expects to also hear speech." There are  more researches to back it up. Gestures can increase the amount of information you can get across by as much as 60%.
 # Aims of this project
@@ -42,7 +42,7 @@ The reason behind this is that JETSON Nano can not always initialize the webcam 
 * Sometimes the JETSON Nano date is not up to date even if you put the date during the setup. Make sure to check that otherwise when you set up the docker the configuration will not mach.
 
 # Our System 
-In our project we tested all available pretrained networks. Finally we kept Mobilenet V2, Resnet 18 and Resnet 34 based on the performance. With Resnet 18 no lagging can be seen while doing the realtime testing but the accuracy is comparatively lower than other two models. Whereas both Resnet 34 and Mobilenet V2 showed lagging once in a while when the movements are very fast but based on accuracy Mobilenet V2 was slightly better than Resnet 34. So we chose Mobilenet V2 for the final demo video. In the Gesture folder we have put a part of our demo data. The video of our work can be seen in this link:
+In our project we tested all available pretrained networks. Finally we kept Mobilenet V2, Resnet 18 and Resnet 34 based on the performance. With Resnet 18 no lagging can be seen while doing the realtime testing but the accuracy is comparatively lower than other two models. Whereas both Resnet 34 and Mobilenet V2 showed lagging once in a while when the movements are very fast but based on accuracy Mobilenet V2 was slightly better than Resnet 34. So we chose Mobilenet V2 for the final demo video. In the Gesture folder we have put a part of our demo data. The video of our work can be seen in this link: https://youtu.be/bJqssBXtWpQ
 
 
 
