@@ -15,9 +15,9 @@ A study led by neuroscientist Spencer Kelly found that, "Gestures – more than 
 # Aims of this project
 1.Human computer interaction
 
-2.Make it easier for robot to understand human more
+2.Make it easier for robot to understand human
 
-3.Computational cost
+3.Computational cost reduction
 
 4.Complexity reduction
 
