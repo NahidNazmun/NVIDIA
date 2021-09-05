@@ -42,7 +42,7 @@ The reason behind this is that JETSON Nano can not always initialize the webcam 
 * Sometimes the JETSON Nano date is not up to date even if you put the date during the setup. Make sure to check that otherwise when you set up the docker the configuration will not mach.
 
 # Our System 
-Here we mainly kept 
+In our project we tested all available pretrained networks. Finally we kept Mobilenet V2, Resnet 18 and Resnet 34 based on the performance. With Resnet 18 no lagging can be seen while doing the realtime testing but the accuracy is comparatively lower than other two models. Whereas both Resnet 34 and Mobilenet V2 showed lagging once in a while when the movements are very fast but based on accuracy Mobilenet V2 was slightly better than Resnet 34. So we chose Mobilenet V2 for the final demo video. In the Gesture folder we have put a part of our demo data. The video of our work can be seen in this link:
 
 
 
